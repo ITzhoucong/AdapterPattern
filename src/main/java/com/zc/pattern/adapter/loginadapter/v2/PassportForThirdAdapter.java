@@ -1,7 +1,7 @@
 package com.zc.pattern.adapter.loginadapter.v2;
 
 import com.zc.pattern.adapter.loginadapter.v1.ResultMsg;
-import com.zc.pattern.adapter.loginadapter.v2.service.SinginService;
+import com.zc.pattern.adapter.loginadapter.v2.service.SiginService;
 import com.zc.pattern.adapter.loginadapter.v2.adapters.*;
 
 /**
@@ -9,7 +9,7 @@ import com.zc.pattern.adapter.loginadapter.v2.adapters.*;
  * @date: Create in 2021/1/12 12:18
  * @description: 继承原有业务实现扩展接口  结合策略模式、工厂模式、适配器模式
  */
-public class PassportForThirdAdapter extends SinginService implements IPassportForThird {
+public class PassportForThirdAdapter extends SiginService implements IPassportForThird {
     @Override
     public ResultMsg loginForQQ(String openId) {
 /*      //        适配器不一定要接口

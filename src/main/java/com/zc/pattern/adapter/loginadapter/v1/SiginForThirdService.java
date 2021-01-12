@@ -5,7 +5,7 @@ package com.zc.pattern.adapter.loginadapter.v1;
  * @date: Create in 2021/1/12 11:58
  * @description:
  */
-public class SinginForThirdService extends SinginService {
+public class SiginForThirdService extends SiginService {
 
     public ResultMsg loginForQQ(String openId) {
 //        1、openId是全局唯一，我们可以把它当做是一个用户名（加长）

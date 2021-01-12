@@ -1,4 +1,4 @@
-package com.zc.pattern.adapter.loginadapter.v2.service;
+package com.zc.pattern.adapter.loginadapter.v1;
 
 import com.zc.pattern.adapter.loginadapter.v1.ResultMsg;
 
@@ -7,7 +7,7 @@ import com.zc.pattern.adapter.loginadapter.v1.ResultMsg;
  * @date: Create in 2021/1/12 11:51
  * @description: 原有的登录注册逻辑
  */
-public class SinginService {
+public class SiginService {
 
     /**
      * 注册方法
